@@ -20,6 +20,14 @@ body {
     margin: 0;
 }
 
+.geo-blocks {
+    width: 100%;
+}
+
+.tech-container {
+    display: flex;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
