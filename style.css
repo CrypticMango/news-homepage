@@ -28,6 +28,7 @@ nav {
     position: absolute;
     margin-left: 105px;
     display: none;
+    backdrop-filter: blur(8px);
 }
 
 ul {
@@ -42,6 +43,23 @@ li {
 li a {
     text-decoration: none;
     color: black;
+}
+
+/*nav styling*/
+
+.side-filter {
+    position: absolute;
+    top: 0;
+    left: -105px;
+    width: 105px;
+    height: 700px;
+    background-color: hsla(240, 100%, 5%, 0.397);
+}
+
+.close-b {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .geo-blocks {
