@@ -28,10 +28,22 @@ body {
     display: flex;
 }
 
+footer {
+    text-align: center;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
+    margin: 30px 0px;
 }
+
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+.fa-brands {
+    font-size: 30px;
+    color: var(--soft-red);
+    margin-bottom: 30px;
 }
