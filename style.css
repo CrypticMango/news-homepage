@@ -20,6 +20,10 @@ body {
     margin: 0;
 }
 
+main {
+    margin: 0px 15px;
+}
+
 nav {
     padding-top: 130px;
     background-color: white;
@@ -30,6 +34,14 @@ nav {
     margin-left: 105px;
     display: none;
     backdrop-filter: blur(8px);
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-right: 50px;
+    line-height: 2.5rem;
 }
 
 ul {
@@ -46,13 +58,31 @@ li a {
     color: black;
 }
 
+p {
+    line-height: 1.5rem;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+button {
+    background-color: var(--soft-red);
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 4px;
+    border: 1px solid var(--soft-red);
+}
+
 /*top bar*/
 
 .top-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 25px 15px;
+    margin: 25px 0px;
 } 
 
 .logo-top {
@@ -68,6 +98,8 @@ li a {
     height: 700px;
     background-color: hsla(240, 100%, 5%, 0.397);
 }
+
+/*section one styling*/
 
 .close-b {
     position: absolute;
