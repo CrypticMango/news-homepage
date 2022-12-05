@@ -109,16 +109,16 @@ button {
 .side-filter {
     position: absolute;
     top: 0;
-    left: -105px;
-    width: 105px;
+    left: -120px;
+    width: 120px;
     height: 700px;
     background-color: hsla(240, 100%, 5%, 0.397);
 }
 
 .close-b {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 30px;
 }
 
 /*section one styling mobile*/
