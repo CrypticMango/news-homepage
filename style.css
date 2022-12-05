@@ -239,18 +239,18 @@ footer {
 		margin: 0px 0px 20px 0px;
 	}
 
-    .categories {
-        padding-right: 0 !important; 
-    }
+	.categories {
+		padding-right: 0 !important;
+	}
 
 	.desktop-nav ul {
 		padding: 0;
-        justify-items: right;
+		justify-items: right;
 	}
 
 	.desktop-nav li {
 		display: inline-block;
-        padding-right: 30px;
+		padding-right: 30px;
 	}
 
 	.desktop-nav li a {

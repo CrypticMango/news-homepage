@@ -12,9 +12,9 @@ menuItem[3].addEventListener("click", closeMenu);
 menuItem[4].addEventListener("click", closeMenu);
 
 function openMenu() {
-    menu.style.display = "block";
+	menu.style.display = "block";
 }
 
 function closeMenu() {
-    menu.style.display = "none";
+	menu.style.display = "none";
 }
