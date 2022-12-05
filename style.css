@@ -201,11 +201,33 @@ footer {
 @media (min-width:1440px) {
 
     main {
-        margin: 0px 100px;
+        margin: 60px 170px 0px 170px;
+    }
+
+    h1 {
+        font-size: 55px;
+        line-height: 3.5rem;
+    }
+
+    h2 {
+        margin-top: 20px;
+        font-size: ;
+    }
+
+    button {
+        margin-top: 25px;
     }
 
     .geo-blocks {
         display: none;
+    }
+
+    .logo-top {
+        width: unset;
+    }
+
+    .top-bar {
+        margin-bottom: 60px;
     }
 
     /*gird and placement for desktop*/
@@ -227,14 +249,20 @@ footer {
         grid-column: 3;
         grid-row: 1/span 2;
         margin: 0;
+        width: 300px;
+        height: 465px;
     }
 
     .top-blurb-n-button {
+        margin-top: 30px;
         grid-column: 2;
         grid-row: 2;
+        padding-right: 20px;
+        color: var(--dark-grayish-blue);
     }
 
     .top-title {
+        margin-top: 30px;
         grid-column: 1;
         grid-row: 2;
     }
@@ -243,7 +271,15 @@ footer {
         grid-column: 1/span 3;
         grid-row: 3;
         display: flex;
+        margin-top: 60px;
     }
 
-   
+    .tech-two {
+        margin-right: 20px;
+    }
+
+    .growth {
+        position: relative;
+        left: -9px;
+    }
 }
