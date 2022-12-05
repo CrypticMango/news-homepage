@@ -26,6 +26,7 @@ nav {
     width: 270px;
     height: 570px;
     position: absolute;
+    top: 0;
     margin-left: 105px;
     display: none;
     backdrop-filter: blur(8px);
@@ -45,6 +46,18 @@ li a {
     color: black;
 }
 
+/*top bar*/
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 15px;
+} 
+
+.logo-top {
+    width: 50px;
+}
 /*nav styling*/
 
 .side-filter {
