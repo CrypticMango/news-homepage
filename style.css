@@ -197,6 +197,11 @@ footer {
 	margin-bottom: 30px;
 }
 
+.fa-brands:hover {
+    color: var(--very-dark-blue);
+    cursor: pointer;
+}
+
 @media (min-width: 1440px) {
 	main {
 		margin: 60px 170px 0px 170px;
@@ -211,9 +216,25 @@ footer {
 		font-size: 40px;
 	}
 
+    h3:hover {
+        color: var(--soft-orange);
+        cursor: pointer;
+    }
+
+    h4:hover {
+        color: var(--soft-red);
+        cursor: pointer;
+    }
+
 	button {
 		margin-top: 25px;
 	}
+
+    button:hover {
+        background-color: var(--very-dark-blue);
+        border: 1px solid var(--very-dark-blue);
+        cursor: pointer;
+    }
 
 	hr {
 		margin: 30px 0px;
@@ -257,6 +278,10 @@ footer {
 		color: var(--dark-grayish-blue);
 		font-size: 16px;
 	}
+    
+    .desktop-nav li a:hover {
+        color: var(--soft-red);
+    }
 
 	/*nav styling end*/
 
